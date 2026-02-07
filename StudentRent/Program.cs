@@ -28,19 +28,12 @@ internal class Program
         }
 
         Console.WriteLine("Quartos Ocupados");
-        for(int i = 0; i < 10; i++)
+        for(int i = 0; i < rooms.Length; i++)
         {
             if (rooms[i] != null)
             {
                 Console.WriteLine("{0}: {1}", i, rooms[i]);
             }
         }
-
-        /*Aluguel #1:
-        Nome: Maria Green
-        Email: maria @gmail.com
-        Quarto: 5*/
-
-
     }
 }
